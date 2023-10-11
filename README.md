@@ -19,5 +19,13 @@ In general, the cost functions of the Discriminative Adversarial Network (DANN) 
 
 These cost functions state that the network that receives the source and destination data, map them as φ(XS) for the source data and as φ(XT) for the destination data, and the cost of the discriminator network should be maximized and the sum of the costs of the classifier network and the negated cost of the discriminator network should be minimized.
 
+In This project we used two datasets as my source and destination domains comprises images of four types of vehicles: bus, car, pickup, and truck. The Mio dataset was utilized for the source domain, consisting of vehicle photos captured by CCTV cameras on the streets. These images typically have higher clarity and are taken from horizontal or aerial angles. In contrast, the destination domain contains a blend of aerial and CCTV camera photos from the streets of Iran, which exhibit slightly lower image quality and may include smaller-sized images.
+MIO dataset :
+![1](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/e78ab6ae-7293-4f6c-abd3-0de34cdb6585)
+![2](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/f3ff01d7-23f3-42b5-b7ec-287d9d3a3104)
+![3](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/28bbeb96-95fe-4e9a-a9e4-8a799975442c)
+![4](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/a3626f27-3015-4dbc-a725-fdefc3d9deb4)
+
+
 Initially, I trained Resnet50 without domain adaptation and then used DANN to showcase the improvement in model accuracy. The results showed that DANN significantly improved the model's performance on the target domain by effectively leveraging knowledge from the source domain.
 
