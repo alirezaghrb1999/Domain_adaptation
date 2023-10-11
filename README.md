@@ -3,7 +3,7 @@ Domain adaptation is a crucial aspect of machine learning and artificial intelli
 
 One of the most effective techniques for solving domain adaptation problems is discriminative adversarial neural networks (DANN). By using DANN, I have successfully addressed a common issue in computer vision, where the feature distribution in the training dataset differs significantly from that in the test dataset. 
 
-![dann](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/5af52cee-8f0a-452b-b985-7290c223940a)
+![dann](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/5af52cee-8f0a-452b-b985-7290c223940a?classes=caption "My Image Caption")
 
 The primary objective of the DANN method is to discover a network that can extract data features from both the source and destination domains, making it difficult for another network, known as the discriminator network, to distinguish between them. This method aims to bring together the domain distributions by extracting and mapping features to different spaces.
 
