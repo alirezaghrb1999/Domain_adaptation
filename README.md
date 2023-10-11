@@ -37,5 +37,17 @@ Iran's Vehicle dataset (Target Domain):
 ![1](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/219c229c-a3a8-4885-9f93-3e688cbad282)
 ![2](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/733b3789-9893-4c82-956f-d53a93285ca2)
 
-Initially, I trained Resnet50 without domain adaptation and then used DANN to showcase the improvement in model accuracy. The results showed that DANN significantly improved the model's performance on the target domain by effectively leveraging knowledge from the source domain.
+in order to showcase the effectiveness of Domain Adaptation techniqe for this image classification problem, first I trained Resnet50 network without domain adaptation (vehicle.ipynb) and then used DANN technique (vehicle_DANN.ipynb) to increace model accuracy by bringing domains' distributions closer to each other. The results showed that DANN significantly improved the model's performance on the target domain by effectively leveraging knowledge from the source domain.
+
+<br>
+MOdel Accuracy during training and data encoding of source and destination domains without DA :
+<br>
+
+![1](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/62c0eee2-0066-42b1-b119-7d69e4ce0a1e)
+
+<br>
+MOdel Accuracy during training and data encoding of source and destination domains with DA :
+<br>
+
+![2](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/56f25aa2-f87a-41e0-b552-4b3f6f4dbd17)
 
