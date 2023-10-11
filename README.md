@@ -17,5 +17,7 @@ In general, the cost functions of the Discriminative Adversarial Network (DANN) 
 
 ![Capture](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/09c62b59-76d9-4721-9019-b252aa580c45)
 
+These cost functions state that the network that receives the source and destination data, map them as φ(XS) for the source data and as φ(XT) for the destination data, and the cost of the discriminator network should be maximized and the sum of the costs of the classifier network and the negated cost of the discriminator network should be minimized.
+
 Initially, I trained Resnet50 without domain adaptation and then used DANN to showcase the improvement in model accuracy. The results showed that DANN significantly improved the model's performance on the target domain by effectively leveraging knowledge from the source domain.
 
