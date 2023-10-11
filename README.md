@@ -23,6 +23,7 @@ These cost functions state that the network that receives the source and destina
 In This project we used two datasets as my source and destination domains comprises images of four types of vehicles: bus, car, pickup, and truck. The Mio dataset was utilized for the source domain, consisting of vehicle photos captured by CCTV cameras on the streets. These images typically have higher clarity and are taken from horizontal or aerial angles. In contrast, the destination domain contains a blend of aerial and CCTV camera photos from the streets of Iran, which exhibit slightly lower image quality and may include smaller-sized images.
 <br>
 MIO dataset (Source Domain):
+
 <br>
 
 ![1](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/e78ab6ae-7293-4f6c-abd3-0de34cdb6585)
@@ -32,6 +33,7 @@ MIO dataset (Source Domain):
 
 <br>
 Iran's Vehicle dataset (Target Domain):
+
 <br>
 
 ![1](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/219c229c-a3a8-4885-9f93-3e688cbad282)
@@ -40,13 +42,17 @@ Iran's Vehicle dataset (Target Domain):
 in order to showcase the effectiveness of Domain Adaptation techniqe for this image classification problem, first I trained Resnet50 network without domain adaptation (vehicle.ipynb) and then used DANN technique (vehicle_DANN.ipynb) to increace model accuracy by bringing domains' distributions closer to each other. The results showed that DANN significantly improved the model's performance on the target domain by effectively leveraging knowledge from the source domain.
 
 <br>
-MOdel Accuracy during training and data encoding of source and destination domains without DA :
+Model Accuracy during training and data encoding of source and destination domains without DA :
+
+<br>
 <br>
 
 ![1](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/62c0eee2-0066-42b1-b119-7d69e4ce0a1e)
 
 <br>
-MOdel Accuracy during training and data encoding of source and destination domains with DA :
+Model Accuracy during training and data encoding of source and destination domains with DA : 
+
+<br>
 <br>
 
 ![2](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/56f25aa2-f87a-41e0-b552-4b3f6f4dbd17)
