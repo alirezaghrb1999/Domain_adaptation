@@ -22,6 +22,7 @@ These cost functions state that the network that receives the source and destina
 
 In This project we used two datasets as my source and destination domains comprises images of four types of vehicles: bus, car, pickup, and truck. The Mio dataset was utilized for the source domain, consisting of vehicle photos captured by CCTV cameras on the streets. These images typically have higher clarity and are taken from horizontal or aerial angles. In contrast, the destination domain contains a blend of aerial and CCTV camera photos from the streets of Iran, which exhibit slightly lower image quality and may include smaller-sized images.
 <br>
+<br>
 MIO dataset (Source Domain):
 
 <br>
