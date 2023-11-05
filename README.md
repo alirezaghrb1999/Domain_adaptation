@@ -48,7 +48,8 @@ Model Accuracy during training and data encoding of source and destination domai
 <br>
 <br>
 
-![1](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/62c0eee2-0066-42b1-b119-7d69e4ce0a1e)
+![Capture](https://github.com/alirezaghrb1999/Domain_adaptation/assets/46087111/f068cb3b-1e3b-48b9-af83-9c6418692e56)
+
 
 <br>
 Model Accuracy during training and data encoding of source and destination domains with DA : 
